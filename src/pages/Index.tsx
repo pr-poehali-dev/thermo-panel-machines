@@ -395,15 +395,35 @@ const Index = () => {
                 </form>
               </CardContent>
             </Card>
-            <div className="grid md:grid-cols-3 gap-6 mt-12">
-              <Card>
-                <CardContent className="p-6 text-center space-y-2">
+            <div className="grid md:grid-cols-2 gap-6 mt-12">
+              <Card className="hover:shadow-lg transition-shadow">
+                <CardContent className="p-6 text-center space-y-3">
                   <Icon name="Phone" size={32} className="text-primary mx-auto" />
                   <h3 className="font-bold text-foreground">Телефон</h3>
-                  <p className="text-muted-foreground">8-900-909-82-15</p>
+                  <p className="text-muted-foreground mb-4">8-900-909-82-15</p>
+                  <div className="flex gap-3 justify-center">
+                    <Button 
+                      variant="outline" 
+                      size="sm"
+                      className="gap-2"
+                      onClick={() => window.open('https://wa.me/79009098215', '_blank')}
+                    >
+                      <Icon name="MessageCircle" size={18} />
+                      WhatsApp
+                    </Button>
+                    <Button 
+                      variant="outline" 
+                      size="sm"
+                      className="gap-2"
+                      onClick={() => window.open('https://t.me/+79009098215', '_blank')}
+                    >
+                      <Icon name="Send" size={18} />
+                      Telegram
+                    </Button>
+                  </div>
                 </CardContent>
               </Card>
-              <Card>
+              <Card className="hover:shadow-lg transition-shadow">
                 <CardContent className="p-6 text-center space-y-2">
                   <Icon name="MapPin" size={32} className="text-primary mx-auto" />
                   <h3 className="font-bold text-foreground">Адрес</h3>
