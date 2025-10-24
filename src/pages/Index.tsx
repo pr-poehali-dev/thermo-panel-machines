@@ -155,7 +155,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Icon name="Factory" size={32} className="text-primary" />
-              <span className="text-xl font-bold text-foreground">ТехноМаш</span>
+              <span className="text-xl font-bold text-foreground">Flesto</span>
             </div>
             <div className="hidden md:flex items-center gap-6">
               <button onClick={() => scrollToSection('catalog')} className="text-sm font-medium hover:text-primary transition-colors">
@@ -427,10 +427,10 @@ const Index = () => {
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
               <Icon name="Factory" size={24} />
-              <span className="font-bold">ТехноМаш</span>
+              <span className="font-bold">Flesto</span>
             </div>
             <p className="text-sm text-background/70">
-              © 2024 ТехноМаш. Оборудование для производства термопанелей
+              © 2024 Flesto. Оборудование для производства термопанелей
             </p>
           </div>
         </div>
