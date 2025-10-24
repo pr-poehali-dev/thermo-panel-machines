@@ -11,7 +11,7 @@ const Index = () => {
       id: 1,
       title: "ЧПУ Станок для нарезки пенопласта",
       subtitle: "работает без компьютера с карты памяти",
-      image: "https://cdn.poehali.dev/projects/b72ccffc-1ade-458f-8ea6-813f2d544224/files/ed19c604-14fe-451b-9e26-7a6db7efa4e3.jpg",
+      image: "https://cdn.poehali.dev/files/bc8560dd-1cf2-4e0d-a2a0-952e4f51b561.png",
       specs: [
         "2 оси X Y",
         "Рабочая зона: 1500×1500×1500 мм",
