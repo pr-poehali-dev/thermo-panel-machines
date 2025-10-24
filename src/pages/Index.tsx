@@ -400,21 +400,14 @@ const Index = () => {
                 <CardContent className="p-6 text-center space-y-2">
                   <Icon name="Phone" size={32} className="text-primary mx-auto" />
                   <h3 className="font-bold text-foreground">Телефон</h3>
-                  <p className="text-muted-foreground">+7 (495) 123-45-67</p>
-                </CardContent>
-              </Card>
-              <Card>
-                <CardContent className="p-6 text-center space-y-2">
-                  <Icon name="Mail" size={32} className="text-primary mx-auto" />
-                  <h3 className="font-bold text-foreground">Email</h3>
-                  <p className="text-muted-foreground">info@technomash.ru</p>
+                  <p className="text-muted-foreground">8-900-909-82-15</p>
                 </CardContent>
               </Card>
               <Card>
                 <CardContent className="p-6 text-center space-y-2">
                   <Icon name="MapPin" size={32} className="text-primary mx-auto" />
                   <h3 className="font-bold text-foreground">Адрес</h3>
-                  <p className="text-muted-foreground">г. Москва, ул. Промышленная, 15</p>
+                  <p className="text-muted-foreground">г. Рязань, ул. Осипенко, 91</p>
                 </CardContent>
               </Card>
             </div>
